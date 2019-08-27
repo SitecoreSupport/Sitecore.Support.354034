@@ -42,30 +42,25 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Forms.Mvc, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Forms.Mvc.NoReferences.9.0.180503\lib\NET462\Sitecore.Forms.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Forms.Core">
+    <Reference Include="Sitecore.Forms.Core, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\WFFM.Sitecore.Forms.Core.9.0.2\lib\Sitecore.Forms.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Sitecore.Forms.Mvc, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\WFFM.Sitecore.Forms.Mvc.9.0.2\lib\Sitecore.Forms.Mvc.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Sitecore.Kernel, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Kernel.NoReferences.9.0.180604\lib\NET462\Sitecore.Kernel.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Logging, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Logging.NoReferences.9.0.180604\lib\NET462\Sitecore.Logging.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Logging.Client, Version=11.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Logging.Client.9.0.180604\lib\NET462\Sitecore.Logging.Client.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Kernel.9.0.2\lib\Sitecore.Kernel.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.Mvc, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Mvc.NoReferences.9.0.180604\lib\NET462\Sitecore.Mvc.dll</HintPath>
-    </Reference>
-    <Reference Include="Sitecore.Web, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.Web.9.0.180604\lib\NET462\Sitecore.Web.dll</HintPath>
+      <HintPath>..\packages\SC.Sitecore.Mvc.9.0.2\lib\Sitecore.Mvc.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="Sitecore.WFFM.Abstractions, Version=9.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Sitecore.WFFM.Abstractions.NoReferences.9.0.180503\lib\NET462\Sitecore.WFFM.Abstractions.dll</HintPath>
+      <HintPath>..\packages\WFFM.Sitecore.WFFM.Abstractions.9.0.2\lib\Sitecore.WFFM.Abstractions.dll</HintPath>
+      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Drawing" />
