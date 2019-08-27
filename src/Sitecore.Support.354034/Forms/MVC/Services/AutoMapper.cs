@@ -144,7 +144,12 @@
                 return null;
             }
 
-            fieldViewModel.Title = item.Title ?? string.Empty;
+            if (item.Title == string.Empty)
+            {
+                return null;
+            }
+
+            fieldViewModel.Title = item.Title;
             fieldViewModel.Name = item.Name ?? string.Empty;
             fieldViewModel.Visible = true;
             if (fieldViewModel is IHasIsRequired)
